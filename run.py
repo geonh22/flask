@@ -9,7 +9,7 @@ from search import search,storage_search
 # db name : test , table name : flask 
 
 db_password='gml040708'
-zone = 'm2'
+zone = 'M2'
 conn = pymysql.connect(
        host='127.0.0.1',
        port=3306,
