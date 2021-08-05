@@ -90,7 +90,7 @@ def cnodelookup():
     data_list, start, end = datepick(db_password,zone, 'CNODE',id)
     ccpu=0
     cmem=0
-    for i in data_list[0]:
+    for i in data_list:
         if i[1]>=90:
             ccpu +=1
         if i[2]>=80:

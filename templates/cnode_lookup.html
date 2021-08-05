@@ -81,11 +81,14 @@
               <!-- 차트 그리는 곳  -->
               <div class="position-relative mb-4">
                 <canvas id="DiskChart" height="200"></canvas>
+                {{data_list}}
               </div>
               <h3 class="card-title" style="text-align:left;">
                 조회 기간 중 메모리 이상 감지 횟수 : {{cmem}}
               </h3>
+              {{data_list[0]}}
               <div class="card-tools" style="text-align: right;">
+                {{ab}}
                 <i class="fas fa-square" style="color:#4B89DC"></i> MEM(%)
               </div>
             </div>
